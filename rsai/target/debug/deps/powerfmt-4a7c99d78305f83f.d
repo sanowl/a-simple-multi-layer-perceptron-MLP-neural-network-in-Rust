@@ -1,0 +1,11 @@
+/Users/san./Documents/GitHub/Tenrflow-using-rust/rsai/target/debug/deps/libpowerfmt-4a7c99d78305f83f.rmeta: /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/powerfmt-0.2.0/src/lib.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/powerfmt-0.2.0/src/buf.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/powerfmt-0.2.0/src/ext.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/powerfmt-0.2.0/src/smart_display.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/powerfmt-0.2.0/src/smart_display_impls.rs
+
+/Users/san./Documents/GitHub/Tenrflow-using-rust/rsai/target/debug/deps/libpowerfmt-4a7c99d78305f83f.rlib: /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/powerfmt-0.2.0/src/lib.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/powerfmt-0.2.0/src/buf.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/powerfmt-0.2.0/src/ext.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/powerfmt-0.2.0/src/smart_display.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/powerfmt-0.2.0/src/smart_display_impls.rs
+
+/Users/san./Documents/GitHub/Tenrflow-using-rust/rsai/target/debug/deps/powerfmt-4a7c99d78305f83f.d: /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/powerfmt-0.2.0/src/lib.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/powerfmt-0.2.0/src/buf.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/powerfmt-0.2.0/src/ext.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/powerfmt-0.2.0/src/smart_display.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/powerfmt-0.2.0/src/smart_display_impls.rs
+
+/Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/powerfmt-0.2.0/src/lib.rs:
+/Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/powerfmt-0.2.0/src/buf.rs:
+/Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/powerfmt-0.2.0/src/ext.rs:
+/Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/powerfmt-0.2.0/src/smart_display.rs:
+/Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/powerfmt-0.2.0/src/smart_display_impls.rs:

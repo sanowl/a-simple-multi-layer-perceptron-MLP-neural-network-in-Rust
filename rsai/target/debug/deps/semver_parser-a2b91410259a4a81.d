@@ -1,0 +1,11 @@
+/Users/san./Documents/GitHub/Tenrflow-using-rust/rsai/target/debug/deps/libsemver_parser-a2b91410259a4a81.rmeta: /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-parser-0.7.0/src/lib.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-parser-0.7.0/src/version.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-parser-0.7.0/src/range.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-parser-0.7.0/src/common.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-parser-0.7.0/src/recognize.rs
+
+/Users/san./Documents/GitHub/Tenrflow-using-rust/rsai/target/debug/deps/libsemver_parser-a2b91410259a4a81.rlib: /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-parser-0.7.0/src/lib.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-parser-0.7.0/src/version.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-parser-0.7.0/src/range.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-parser-0.7.0/src/common.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-parser-0.7.0/src/recognize.rs
+
+/Users/san./Documents/GitHub/Tenrflow-using-rust/rsai/target/debug/deps/semver_parser-a2b91410259a4a81.d: /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-parser-0.7.0/src/lib.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-parser-0.7.0/src/version.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-parser-0.7.0/src/range.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-parser-0.7.0/src/common.rs /Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-parser-0.7.0/src/recognize.rs
+
+/Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-parser-0.7.0/src/lib.rs:
+/Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-parser-0.7.0/src/version.rs:
+/Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-parser-0.7.0/src/range.rs:
+/Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-parser-0.7.0/src/common.rs:
+/Users/san./.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-parser-0.7.0/src/recognize.rs:
