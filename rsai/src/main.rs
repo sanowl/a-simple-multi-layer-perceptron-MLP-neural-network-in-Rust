@@ -33,12 +33,37 @@ struct MLP {
     learning_rate: f64,
 }
 
+/// Represents a Multi-Layer Perceptron (MLP) neural network.
+struct MLP {
+    layers: Vec<Layer>,  // The layers of the MLP
+    learning_rate: f64,  // The learning rate for training the MLP
+}
+
 impl MLP {
+    /// Creates a new instance of the MLP with the given layer sizes and learning rate.
+    ///
+    /// # Arguments
+    ///
+    /// * `layer_sizes` - A slice of usize values representing the sizes of each layer in the MLP.
+    /// * `learning_rate` - The learning rate for training the MLP.
+    ///
+    /// # Returns
+    ///
+    /// A new instance of the MLP.
     fn new(layer_sizes: &[usize], learning_rate: f64) -> Self {
         let layers: Vec<Layer> = layer_sizes.windows(2).map(|sizes| Layer::new(sizes[0])).collect();
         MLP { layers, learning_rate }
     }
 
+    /// Predicts the output of the MLP for the given inputs.
+    ///
+    /// # Arguments
+    ///
+    /// * `inputs` - A vector of f64 values representing the input to the MLP.
+    ///
+    /// # Returns
+    ///
+    /// The predicted output of the MLP.
     fn predict(&self, inputs: &Vec<f64>) -> f64 {
         let mut layer_inputs = inputs.clone();
         for layer in &self.layers {
@@ -47,6 +72,16 @@ impl MLP {
         layer_inputs[0]
     }
 
+    /// Trains the MLP using the given inputs and true label.
+    ///
+    /// # Arguments
+    ///
+    /// * `inputs` - A vector of f64 values representing the input to the MLP.
+    /// * `true_label` - The true label corresponding to the inputs.
+    ///
+    /// # Returns
+    ///
+    /// The squared error as the loss during training.
     fn train(&mut self, inputs: &Vec<f64>, true_label: f64) -> f64 {
         let mut layer_inputs = vec![inputs.clone()];
         let mut layer_outputs = vec![inputs.clone()];
@@ -63,6 +98,15 @@ impl MLP {
         error.powi(2)  // return the squared error as the loss
     }
 
+    /// Evaluates the performance of the MLP on the given test data.
+    ///
+    /// # Arguments
+    ///
+    /// * `test_data` - A slice of tuples containing the test inputs and true labels.
+    ///
+    /// # Returns
+    ///
+    /// The accuracy of the MLP on the test data, represented as a value between 0.0 and 1.0.
     fn evaluate(&self, test_data: &[(Vec<f64>, f64)]) -> f64 {
         let mut correct_predictions = 0;
         for &(ref inputs, true_label) in test_data {
